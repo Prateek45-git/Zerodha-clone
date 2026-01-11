@@ -929,7 +929,7 @@ hr {
   overflow-y: auto;
 }
 
-/* ---------- Tablets & Mobile ---------- */
+
 @media (max-width: 1024px) {
 
   body {
@@ -941,7 +941,7 @@ hr {
     height: auto;
   }
 
-  /* Watchlist on top */
+
   .watchlist-container {
     width: 100% !important;
     min-width: 100% !important;
@@ -951,14 +951,14 @@ hr {
     border-bottom: 1px solid #e5e5e5;
   }
 
-  /* Content below */
+ 
   .content {
     width: 100% !important;
     height: auto;
     padding: 16px;
   }
 
-  /* Summary blocks stack */
+ 
   .row {
     flex-direction: column;
     gap: 20px;
@@ -968,7 +968,7 @@ hr {
     flex-basis: 100%;
   }
 
-  /* Fix summary numbers */
+
   .data {
     width: 100%;
     flex-direction: column;
@@ -979,23 +979,23 @@ hr {
     display: none;
   }
 
-  /* Donut chart */
+
   .watchlist-chart {
     max-width: 300px;
     margin: 24px auto;
   }
 
-  /* Topbar compact */
+
   .indices-container {
     flex-direction: column;
     gap: 6px;
   }
 }
 
-/* ---------- Mobile (Tables) ---------- */
+
 @media (max-width: 768px) {
 
-  /* Tables should SCROLL, not break */
+  
   .order-table {
     overflow-x: auto;
   }
@@ -1004,14 +1004,14 @@ hr {
     min-width: 750px;
   }
 
-  /* Reduce padding */
+  
   .order-table th,
   .order-table td {
     padding: 8px 6px;
     font-size: 12px;
   }
 
-  /* Buy / Sell buttons */
+  
   .actions {
     justify-content: flex-end;
   }
@@ -1045,13 +1045,13 @@ hr {
   flex-wrap: nowrap !important;
 }
 
-/* Menu row stays single line */
+
 .menu-container {
   flex-wrap: nowrap !important;
   overflow-x: auto;
 }
 
-/* Hide scrollbar but allow swipe */
+
 .menu-container::-webkit-scrollbar {
   display: none;
 }
@@ -1060,19 +1060,19 @@ hr {
   scrollbar-width: none;
 }
 
-/* Menu list in single row */
+
 .menus ul {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
 }
 
-/* Prevent text wrapping */
+
 .menus li {
   white-space: nowrap;
 }
 
-/* Mobile specific tightening */
+
 @media (max-width: 768px) {
 
   .topbar-container {
@@ -1090,7 +1090,7 @@ hr {
 }
 
 
-/* Chart wrapper */
+
 .chart-container,
 .bar-chart-container {
   width: 100%;
@@ -1098,14 +1098,14 @@ hr {
   padding-bottom: 10px;
 }
 
-/* Force desktop-like chart size */
+
 .chart-container canvas,
 .bar-chart-container canvas {
   min-width: 420px;       
   min-height: 4cqmax;      
 }
 
-/* Mobile specific */
+
 @media (max-width: 768px) {
   .chart-container,
   .bar-chart-container {
